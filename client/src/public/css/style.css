@@ -485,7 +485,7 @@ a:focus {
   margin-top: 45px;
 }
 
-.service_section .box .img-box svg {
+.service_section .box .img-box svg  {
   width: 75px;
   height: auto;
   fill: #1c1c1c;

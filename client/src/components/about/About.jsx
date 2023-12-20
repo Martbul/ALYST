@@ -4,13 +4,13 @@ export default function About() {
    return (
      <>
 
-      <section className="download-area section-gap" id="app">
+      <section className="download-area section-gap" id="app" style={{backgroundColor:'white'}}>
          <div className="container">
            <div className="row">
              <div className="col-lg-6 download-left">
                <img
                  className="img-fluid"
-                 src="./src/public/images/robot.gif"
+                 src="./src/public/images/multyAIimage_result.png"
                  alt=""
                />
              </div>

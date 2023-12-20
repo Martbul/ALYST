@@ -54,7 +54,7 @@ style={{backgroundColor:'white'}}
             >
               <img 
               className="image1"
-                src="/src/public/images/AIHome.jpg"
+                src="/src/public/images/AI_image.jpg"
                 alt="team meeting"
               />
             </div>
@@ -127,8 +127,10 @@ style={{backgroundColor:'white'}}
                    </svg>
                  </div>
                  <div className="detail-box">
-                   <h6>Get weekly groceries</h6>
-                   <p>Make order for your weekly groceries with us.</p>
+                   <h6>Task manager</h6>
+                   <p>Make your employees' jobs easier
+                    Organaizes your employees work and answers their questions.
+                   </p>
                    <a href="">Read More</a>
                  </div>
                </div>
@@ -205,8 +207,8 @@ style={{backgroundColor:'white'}}
                    </svg>
                  </div>
                  <div className="detail-box">
-                   <h6>Save time</h6>
-                   <p>Almost 90% of the people shop every week.</p>
+                   <h6>Question Ansewring</h6>
+                   <p>Answers to all questions your client have.</p>
                    <a href="">Read More</a>
                  </div>
                </div>
@@ -214,16 +216,11 @@ style={{backgroundColor:'white'}}
              <div className="col-md-4">
                <div className="box ">
                  <div className="img-box">
-                   <svg
-                     version="1.1"
-                     xmlns="http://www.w3.org/2000/svg"
-                     xmlnsXlink="http://www.w3.org/1999/xlink"
-                     x="0px"
-                     y="0px"
-                     viewBox="0 0 512 512"
-                     style={{ enableBackground: "new 0 0 512 512" }}
-                     xmlSpace="preserve"
-                   >
+                 
+                   <img src="/src/public/images/answeringAI.png" alt=""
+
+                   
+                    />
                      <g>
                        <g>
                          <path d="M332,423.518V512h60v-15C392,460.784,366.197,430.487,332,423.518z" />
@@ -251,26 +248,11 @@ style={{backgroundColor:'white'}}
                          />
                        </g>
                      </g>
-                     <g></g>
-                     <g></g>
-                     <g></g>
-                     <g></g>
-                     <g></g>
-                     <g></g>
-                     <g></g>
-                     <g></g>
-                     <g></g>
-                     <g></g>
-                     <g></g>
-                     <g></g>
-                     <g></g>
-                     <g></g>
-                     <g></g>
-                   </svg>
                  </div>
                  <div className="detail-box">
-                   <h6>Earn as a deliver</h6>
-                   <p>You can become a deliver and make money when you want.</p>
+                   <h6>Custom Problem Solve</h6>
+                   <p>Tell us problem that your business is facing and 
+                    we will help solve it with AI.</p>
                    <a href="">Read More</a>
                  </div>
                </div>
@@ -280,7 +262,7 @@ style={{backgroundColor:'white'}}
        </section>
        {/* end service section */}
        {/* client section */}
-       <section className="client_section layout_padding">
+       <section className="client_section layout_padding" style={{backgroundColor:'#f6f6f6'}}>
          <div className="container ">
            <div className="heading_container heading_center">
              <h2>What our clients says</h2>
@@ -362,6 +344,7 @@ style={{backgroundColor:'white'}}
            </div>
          </div>
        </section>
+
        {/* end client section */}
        {/* contact section */}
        <section className="callto-action-area section-gap" id="join">
