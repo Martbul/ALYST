@@ -4,7 +4,10 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import { BrowserRouter } from "react-router-dom";
 
-
+import '/src/public/css3/templatemo-space-dynamic.css'
+import '/src/public/css3/owl.css'
+import '/src/public/css3/animated.css'
+import '/src/public/css3/fontawesome.css'
 // css imports
 // import "./public/css/animate.css";
 // import "./public/css/style.css";

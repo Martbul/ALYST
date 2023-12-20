@@ -2,53 +2,73 @@ import { Link } from "react-router-dom";
 export default function Home() {
    return (
      <>
-       <div className="hero_area">
-         {/* header section strats */}
-         <div className="hero_bg_box">
-           <div className="img-box">
-             <img src="images/hero-bg.jpg" alt="" />
-           </div>
-         </div>
+<div
+style={{backgroundColor:'white'}}
+  className="main-banner wow fadeIn"
+  id="top"
+  data-wow-duration="1s"
+  data-wow-delay="0.5s"
+>
+  <div className="container">
+    <div className="row">
+      <div className="col-lg-12">
+        <div className="row">
+          <div className="col-lg-6 align-self-center">
+            <div
+              className="left-content header-text wow fadeInLeft"
+              data-wow-duration="1s"
+              data-wow-delay="1s"
+            >
+              <h6>Welcome to ALYST</h6>
+              <h2>
+                We Improve your <em>Company</em> with <span>AI</span> Products
+              </h2>
+              <p>
+                ALYST is a professional company working for better future. We want to optimize the works in each company trought utilizing AI work
+                
+              </p>
+              <form id="search" action="#" method="GET">
+                <fieldset>
+                  <input
+                    type="address"
+                    name="address"
+                    className="email"
+                    placeholder="Your website URL..."
+                    autoComplete="on"
+                    required=""
+                  />
+                </fieldset>
+                <fieldset>
+                  <button type="submit" className="main-button">
+                    Analyze Site
+                  </button>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+          <div className="col-lg-6">
+            <div
+              className="right-image wow fadeInRight"
+              data-wow-duration="1s"
+              data-wow-delay="0.5s"
+            >
+              <img 
+              className="image1"
+                src="/src/public/images/AIHome.jpg"
+                alt="team meeting"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-         {/* end header section */}
-         {/* slider section */}
-         <section className=" slider_section ">
-           <div
-             id="carouselExampleIndicators"
-             className="carousel slide"
-             data-ride="carousel"
-           >
-             <div className="carousel-inner">
-               <div className="carousel-item active">
-                 <div className="container">
-                   <div className="row">
-                     <div className="col-md-7">
-                       <div className="detail-box">
-                         <h1>
-                           Weekly grocery delivery <br />
-                           <span>Our Responsibility</span>
-                         </h1>
-                         <p>Make last minute changes and track your order.</p>
-                         <div className="btn-box">
-                           <Link to="/orders/order" className="btn-1">
-                             Order
-                           </Link>
-                           <Link to="/learnMore" className="btn-2">
-                             Learn More
-                           </Link>
-                         </div>
-                       </div>
-                     </div>
-                   </div>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </section>
-         {/* end slider section */}
-       </div>
+
+
        {/* about section */}
-       <section className="about_section layout_padding">
+       <section className="about_section layout_padding" style={{backgroundColor:'#003554'}}>
          <div className="container">
            <div className="row">
              <div className="col-md-6 px-0">
@@ -81,7 +101,7 @@ export default function Home() {
        <section className="service_section layout_padding">
          <div className="container">
            <div className="heading_container heading_center">
-             <h2 style={{ color: "white" }}>Our services </h2>
+             <h2 >Our services </h2>
            </div>
            <div className="row">
              <div className="col-md-4">
@@ -419,7 +439,7 @@ export default function Home() {
          </div>
        </section>{" "}
        {/* end team section */}
-       <section className="contact_section layout_padding">
+       <section className="contact_section layout_padding" style={{backgroundColor :'#8B8C89'}} >
          <div className="contact_bg_box">
            <div className="img-box">
              <img src="images/contact-bg.jpg" alt="" />
