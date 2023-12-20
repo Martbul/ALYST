@@ -15,10 +15,10 @@ export default function Navigation() {
     >
       <div className="container">
         <NavLink className="navbar-brand" to="/">
-          <img src="../src/public/images/shopping-bag (2).svg" />
-          Bind
+          <img src="../src/public/images/rocket.png" style={{height:'41px'}}/>
+          ALYST
           <br />
-          <small>Delivery</small>
+          <small style={{color:'#3a86ff'}}>optimization</small>
         </NavLink>
         <button
           className="navbar-toggler"

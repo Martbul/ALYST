@@ -373,7 +373,7 @@ style={{backgroundColor:'white'}}
        {/* end contact section */}
        {/* team section */}
       
-       <section className="contact_section layout_padding" style={{backgroundColor :'#C2CCD1'}} >
+       <section className="contact_section layout_padding" style={{backgroundColor :'#89b2ff7a'}} >
          <div className="contact_bg_box">
            <div className="img-box">
              <img src="images/contact-bg.jpg" alt="" />
