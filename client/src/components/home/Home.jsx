@@ -391,55 +391,8 @@ style={{backgroundColor:'white'}}
        </section>
        {/* end contact section */}
        {/* team section */}
-       <section className="download-area section-gap" id="app">
-         <div className="container">
-           <div className="row">
-             <div className="col-lg-6 download-left">
-               <img
-                 className="img-fluid"
-                 src="./src/public/images/d1.png"
-                 alt=""
-               />
-             </div>
-             <div className="col-lg-6 download-right">
-               <h1>
-                 Download the <br />
-                 Bind App Today!
-               </h1>
-               <p className="subs">
-                 Now you can download the Bind app. Select and manage your
-                 orders easily from the comfort of your phone.
-               </p>
-               <div className="d-flex flex-row">
-                 <div className="buttons">
-                   <i className="fa fa-apple" aria-hidden="true" />
-                   <div className="desc">
-                     <a href="#">
-                       <p>
-                         <span>Available</span> <br />
-                         on App Store
-                       </p>
-                     </a>
-                   </div>
-                 </div>
-                 <div className="buttons">
-                   <i className="fa fa-android" aria-hidden="true" />
-                   <div className="desc">
-                     <a href="#">
-                       <p>
-                         <span>Available</span> <br />
-                         on Play Store
-                       </p>
-                     </a>
-                   </div>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </section>{" "}
-       {/* end team section */}
-       <section className="contact_section layout_padding" style={{backgroundColor :'#8B8C89'}} >
+      
+       <section className="contact_section layout_padding" style={{backgroundColor :'#E7ECEF'}} >
          <div className="contact_bg_box">
            <div className="img-box">
              <img src="images/contact-bg.jpg" alt="" />

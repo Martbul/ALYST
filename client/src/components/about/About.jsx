@@ -3,6 +3,55 @@ import { Link } from "react-router-dom";
 export default function About() {
    return (
      <>
+
+      <section className="download-area section-gap" id="app">
+         <div className="container">
+           <div className="row">
+             <div className="col-lg-6 download-left">
+               <img
+                 className="img-fluid"
+                 src="./src/public/images/robot.gif"
+                 alt=""
+               />
+             </div>
+             <div className="col-lg-6 download-right">
+               <h1>
+                 Download the <br />
+                 Bind App Today!
+               </h1>
+               <p className="subs">
+                 Now you can download the Bind app. Select and manage your
+                 orders easily from the comfort of your phone.
+               </p>
+               <div className="d-flex flex-row">
+                 <div className="buttons">
+                   <i className="fa fa-apple" aria-hidden="true" />
+                   <div className="desc">
+                     <a href="#">
+                       <p>
+                         <span>Available</span> <br />
+                         on App Store
+                       </p>
+                     </a>
+                   </div>
+                 </div>
+                 <div className="buttons">
+                   <i className="fa fa-android" aria-hidden="true" />
+                   <div className="desc">
+                     <a href="#">
+                       <p>
+                         <span>Available</span> <br />
+                         on Play Store
+                       </p>
+                     </a>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </section>{" "} 
+       {/* end team section
        <section className="hero">
          <div className="container">
            <div className="hero-inner">
@@ -35,7 +84,7 @@ export default function About() {
                  <div className="counter-content-wrap">
                    <i className="lni lni-rocket" />
                    <h6 className="counter-title">
-                     <strong>Trusted by 4000+</strong>
+                     <strong>Trusted by 2000+</strong>
                    </h6>
                    <p className="counter-text">
                      High performing team worldwide
@@ -45,15 +94,15 @@ export default function About() {
                <div className="col-lg-6 col-12">
                  <ul className="counter-list list-inline text-right">
                    <li>
-                     <span className="number count">1 238</span>
+                     <span className="number count">238</span>
                      <span className="title">Happy Clients</span>
                    </li>
                    <li>
-                     <span className="number count">24</span>
+                     <span className="number count">4</span>
                      <span className="title">Wining Award</span>
                    </li>
                    <li>
-                     <span className="number count">1 000</span>
+                     <span className="number count">34</span>
                      <span className="title">Team Member</span>
                    </li>
                  </ul>

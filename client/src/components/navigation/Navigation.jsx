@@ -88,6 +88,18 @@ export default function Navigation() {
                 About
               </NavLink>
             </li>
+
+            <li className="nav-item">
+              <NavLink
+                to="/about"
+                className={({ isActive }) =>
+                  isActive ? "nav-linkActive nav-link" : "nav-link"
+                }
+              >
+                Services
+              </NavLink>
+            </li>
+            
             {isAuthenticated == true && (
               <>
                 <li className="nav-item">
