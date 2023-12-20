@@ -84,10 +84,8 @@ style={{backgroundColor:'white'}}
                    <h2>Who Are We?</h2>
                  </div>
                  <p>
-                   Our goal is to make life more simple and easy. We want people
-                   to have more time to himself and for holiday. Also everyone
-                   who wants a sidehusle and a part job and be part of our
-                   Deliver program and make money.
+                   Our goal is to help companies with Artoficial Inteligence.
+                    To make the work and logistics simler and generate more income.
                  </p>
                  <div className="btn-box">
                    <a href="">Read More</a>
@@ -392,7 +390,7 @@ style={{backgroundColor:'white'}}
        {/* end contact section */}
        {/* team section */}
       
-       <section className="contact_section layout_padding" style={{backgroundColor :'#E7ECEF'}} >
+       <section className="contact_section layout_padding" style={{backgroundColor :'#C2CCD1'}} >
          <div className="contact_bg_box">
            <div className="img-box">
              <img src="images/contact-bg.jpg" alt="" />

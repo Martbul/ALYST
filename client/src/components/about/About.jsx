@@ -75,7 +75,7 @@ export default function About() {
        {/* Start Counter Section*/}
        <section
          className="product-counter-section"
-         style={{ background: "#49e4fa" }}
+         style={{ background: "#3a86ff" }}
        >
          <div className="product-counter-wrap">
            <div className="container">
@@ -439,7 +439,7 @@ export default function About() {
        </section>
 
        <section
-         style={{ backgroundColor: "#00000038" }}
+         style={{ backgroundColor: "#C2CCD1" }}
          className="contact_section layout_padding"
        >
          <div className="contact_bg_box">
