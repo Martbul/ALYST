@@ -27,7 +27,7 @@ style={{backgroundColor:'white'}}
                 ALYST is a professional company working for better future. We want to optimize the works in each company trought utilizing AI work
                 
               </p>
-              <form id="search" action="#" method="GET">
+              {/* <form id="search" action="#" method="GET">
                 <fieldset>
                   <input
                     type="address"
@@ -43,7 +43,7 @@ style={{backgroundColor:'white'}}
                     Analyze Site
                   </button>
                 </fieldset>
-              </form>
+              </form> */}
             </div>
           </div>
           <div className="col-lg-6">
