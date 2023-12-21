@@ -8,6 +8,16 @@ import '/src/public/css3/templatemo-space-dynamic.css'
 import '/src/public/css3/owl.css'
 import '/src/public/css3/animated.css'
 import '/src/public/css3/fontawesome.css'
+
+import "/src/public/css4/style.css";
+import "/src/public/css4/flaticon.css";
+import "/src/public/css4/animate.css";
+import "/src/public/css4/responsive.css";
+import "/src/public/css4/bootsnav.css";
+import "/src/public/css4/font-awesome.min.css";
+import "/src/public/css4/linearicons.css";
+import "/src/public/css4/owl.carousel.min.css";
+import "/src/public/css4/owl.theme.default.min.css";
 // css imports
 // import "./public/css/animate.css";
 // import "./public/css/style.css";
