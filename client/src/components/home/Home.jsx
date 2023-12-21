@@ -100,8 +100,10 @@ export default function Home() {
        {/* end about section */}\{/* service section */}
        <section id="service" className="service">
          <div className="container">
-            
-           <div className="heading_container heading_center">
+           <div
+             className="heading_container heading_center"
+             style={{ paddingBottom: "4%" }}
+           >
              <h2>Our services </h2>
            </div>
            <div className="service-content">
@@ -123,13 +125,11 @@ export default function Home() {
                      />
                    </div>
                    <h2>
-                     <a href="#">
-                       largest dealership <span> of</span> car
-                     </a>
+                     <a href="#">Customer helper</a>
                    </h2>
                    <p>
-                     Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                     odit aut den fugit sed quia.
+                     Answer qustomers question without need for a Qustomer
+                     Support team.
                    </p>
                  </div>
                </div>
@@ -142,15 +142,17 @@ export default function Home() {
                    }}
                  >
                    <div className="single-service-icon">
-                     <i className="flaticon-car-repair" />
+                     <img
+                       //  style={{ height: "129px" }}
+                       className="flaticon-car"
+                       src="/src/public/images/list-6241.png"
+                       alt=""
+                     />
                    </div>
                    <h2>
-                     <a href="#">unlimited repair warrenty</a>
+                     <a href="#">Track tasks and progress</a>
                    </h2>
-                   <p>
-                     Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                     odit aut den fugit sed quia.
-                   </p>
+                   <p>Your empoyees progress and thay can search their tasks</p>
                  </div>
                </div>
                <div className="col-md-4 col-sm-6">
@@ -162,14 +164,19 @@ export default function Home() {
                    }}
                  >
                    <div className="single-service-icon">
-                     <i className="flaticon-car-1" />
+                     <img
+                       //  style={{ height: "129px" }}
+                       className="flaticon-car"
+                       src="/src/public/images/filter-6551.png"
+                       alt=""
+                     />
                    </div>
                    <h2>
-                     <a href="#">insurence support</a>
+                     <a href="#">Get custom AI</a>
                    </h2>
                    <p>
-                     Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                     odit aut den fugit sed quia.
+                     Tell us your sepcific business problem and we will find AI
+                     solution
                    </p>
                  </div>
                </div>
@@ -178,8 +185,64 @@ export default function Home() {
          </div>
          {/*/.container*/}
        </section>
-   
-       
+       <div className="infos section" id="infos">
+         <div className="container">
+           <div className="row">
+             <div className="col-lg-12">
+               <div className="main-content">
+                 <div className="row">
+                   <div className="col-lg-6">
+                     <div className="left-image">
+                       <img
+                         className="img111"
+                         src="./src/public/images/AIphoto.jpeg"
+                         alt=""
+                       />
+                     </div>
+                   </div>
+                   <div className="col-lg-6">
+                     <div className="section-heading">
+                       <h2>
+                         More <em style={{ color: "#03a4ed" }}>About Us</em>{" "}
+                         &amp; What{" "}
+                         <span style={{ color: "#3a86ff" }}>We Offer</span>
+                       </h2>
+
+                       <p>
+                         You are free to use this template for any purpose. You
+                         are not allowed to redistribute the downloadable ZIP
+                         file of Tale SEO Template on any other template
+                         website. Please contact us. Thank you.
+                       </p>
+                     </div>
+                     <div className="skills">
+                       <div className="skill-slide marketing">
+                         <div className="fill" />
+                         <h6>Informed Clients</h6>
+                         <span>90%</span>
+                       </div>
+                       <div className="skill-slide digital">
+                         <div className="fill" />
+                         <h6>Task Management</h6>
+                         <span>80%</span>
+                       </div>
+                       <div className="skill-slide media">
+                         <div className="fill" />
+                         <h6>Customization</h6>
+                         <span>95%</span>
+                       </div>
+                     </div>
+                     <p className="more-info">
+                       With our help you can develop and increse your business
+                       productivity
+                     </p>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
+       </div>
        {/* client section */}
        <section
          className="client_section layout_padding"
@@ -267,35 +330,10 @@ export default function Home() {
          </div>
        </section>
        {/* end client section */}
-       {/* contact section */}
-       <section className="callto-action-area section-gap" id="join">
-         <div className="container">
-           <div className="row d-flex justify-content-center">
-             <div className="menu-content col-lg-9">
-               <div className="title text-center">
-                 <h1 className="mb-10 text-white">Join us today</h1>
-                 <p className="text-white">
-                   Make the dream true wit us. Become a deliver and make money
-                   when you want. Deliver order in your time schedule and
-                   preferred day. Have own customers and live the life you
-                   deserve
-                 </p>
-                 <a className="primary-btn" href="#">
-                   Make deliver account
-                 </a>
-                 <a className="primary-btn" href="#">
-                   Lear more
-                 </a>
-               </div>
-             </div>
-           </div>
-         </div>
-       </section>
-       {/* end contact section */}
        {/* team section */}
        <section
          className="contact_section layout_padding"
-         style={{ backgroundColor: "#89b2ff7a" }}
+         style={{ backgroundColor: "#e7ecef" }}
        >
          <div className="contact_bg_box">
            <div className="img-box">
