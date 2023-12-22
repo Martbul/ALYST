@@ -23,6 +23,8 @@ import "/src/public/css5/animate.css";
 // import "/src/public/css5/flex-slider.css";
 // import "/src/public/css5/fontawesome.css";
 import "/src/public/css5/templatemo-tale-seo-agency.css";
+
+
 // css imports
 // import "./public/css/animate.css";
 // import "./public/css/style.css";

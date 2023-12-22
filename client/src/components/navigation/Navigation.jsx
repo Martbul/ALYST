@@ -15,10 +15,13 @@ export default function Navigation() {
     >
       <div className="container">
         <NavLink className="navbar-brand" to="/">
-          <img src="../src/public/images/rocket.png" style={{height:'41px'}}/>
+          <img
+            src="../src/public/images/rocket.png"
+            style={{ height: "41px" }}
+          />
           ALYST
           <br />
-          <small style={{color:'#3a86ff'}}>optimization</small>
+          <small style={{ color: "#3a86ff" }}>optimization</small>
         </NavLink>
         <button
           className="navbar-toggler"
@@ -43,40 +46,17 @@ export default function Navigation() {
                 Home
               </NavLink>
             </li>
+
             <li className="nav-item">
               <NavLink
-                to="/orders/order"
+                to="/services"
                 className={({ isActive }) =>
                   isActive ? "nav-linkActive nav-link" : "nav-link"
                 }
               >
-                Order
+                Services
               </NavLink>
             </li>
-            {isAuthenticated == true && (
-              <>
-                <li className="nav-item">
-                  <NavLink
-                    to="/beADeliver"
-                    className={({ isActive }) =>
-                      isActive ? "nav-linkActive nav-link" : "nav-link"
-                    }
-                  >
-                    Become a deliver
-                  </NavLink>
-                </li>
-                <li className="nav-item">
-                  <NavLink
-                    to="/binds/binds"
-                    className={({ isActive }) =>
-                      isActive ? "nav-linkActive nav-link" : "nav-link"
-                    }
-                  >
-                    Binds
-                  </NavLink>
-                </li>
-              </>
-            )}
 
             <li className="nav-item">
               <NavLink
@@ -89,17 +69,6 @@ export default function Navigation() {
               </NavLink>
             </li>
 
-            <li className="nav-item">
-              <NavLink
-                to="/about"
-                className={({ isActive }) =>
-                  isActive ? "nav-linkActive nav-link" : "nav-link"
-                }
-              >
-                Services
-              </NavLink>
-            </li>
-            
             {isAuthenticated == true && (
               <>
                 <li className="nav-item">

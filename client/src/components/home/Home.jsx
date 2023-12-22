@@ -185,6 +185,8 @@ export default function Home() {
          </div>
          {/*/.container*/}
        </section>
+
+       
        <div className="infos section" id="infos">
          <div className="container">
            <div className="row">
@@ -330,6 +332,7 @@ export default function Home() {
          </div>
        </section>
        {/* end client section */}
+       
        {/* team section */}
        <section
          className="contact_section layout_padding"
