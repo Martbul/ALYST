@@ -172,7 +172,7 @@ export default function About() {
                      />
                    </div>
                    <h2>
-                     <a href="#">Track tasks and progress</a>
+                     <a href="#">Employee Task Tracker</a>
                    </h2>
                    <p>Your empoyees progress and thay can search their tasks</p>
                  </div>

@@ -150,7 +150,7 @@ export default function Home() {
                      />
                    </div>
                    <h2>
-                     <a href="#">Track tasks and progress</a>
+                     <a href="#">Employee Task Tracker</a>
                    </h2>
                    <p>Your empoyees progress and thay can search their tasks</p>
                  </div>
@@ -185,8 +185,6 @@ export default function Home() {
          </div>
          {/*/.container*/}
        </section>
-
-       
        <div className="infos section" id="infos">
          <div className="container">
            <div className="row">
@@ -332,7 +330,6 @@ export default function Home() {
          </div>
        </section>
        {/* end client section */}
-       
        {/* team section */}
        <section
          className="contact_section layout_padding"
