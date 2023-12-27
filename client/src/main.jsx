@@ -25,6 +25,9 @@ import "/src/public/css5/animate.css";
 import "/src/public/css5/templatemo-tale-seo-agency.css";
 
 
+import "/src/public/css6/style.css";
+
+
 // css imports
 // import "./public/css/animate.css";
 // import "./public/css/style.css";

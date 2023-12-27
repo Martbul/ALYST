@@ -19,13 +19,10 @@ export default function About() {
              </div>
              <div className="col-lg-6 download-right">
                <h1>
-                 Download the <br />
-                 Bind App Today!
+                 We are 
+                 ALYST!
                </h1>
-               <p className="subs">
-                 Now you can download the Bind app. Select and manage your
-                 orders easily from the comfort of your phone.
-               </p>
+               <p className="subs"> Our goal is to help business manage empoyees, operate and create custop AI models.</p>
                <div className="d-flex flex-row">
                  <div className="buttons">
                    <i className="fa fa-apple" aria-hidden="true" />

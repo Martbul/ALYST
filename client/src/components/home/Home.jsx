@@ -116,6 +116,8 @@ export default function Home() {
                      boxShadow: "0 0 15px 0",
                    }}
                  >
+                
+
                    <div className="single-service-icon">
                      <img
                        //  style={{ height: "129px" }}
@@ -125,7 +127,7 @@ export default function Home() {
                      />
                    </div>
                    <h2>
-                     <a href="#">Customer helper</a>
+                     <Link to="/service1">Customer helper</Link>
                    </h2>
                    <p>
                      Answer qustomers question without need for a Qustomer
@@ -150,7 +152,7 @@ export default function Home() {
                      />
                    </div>
                    <h2>
-                     <a href="#">Employee Task Tracker</a>
+                     <Link to="/service2">Employee Task Tracker</Link>
                    </h2>
                    <p>Your empoyees progress and thay can search their tasks</p>
                  </div>
@@ -172,7 +174,7 @@ export default function Home() {
                      />
                    </div>
                    <h2>
-                     <a href="#">Get custom AI</a>
+                     <Link to="/service3">Get custom AI</Link>
                    </h2>
                    <p>
                      Tell us your sepcific business problem and we will find AI
