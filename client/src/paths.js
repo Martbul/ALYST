@@ -19,4 +19,5 @@ const Path = {
   DeliverLogin: "/deliverLogin",
 };
 
+
 export default Path;
