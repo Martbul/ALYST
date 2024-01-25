@@ -18,6 +18,7 @@ export default function Navigation() {
           <img
             src="../src/public/images/rocket.png"
             style={{ height: "41px" }}
+            alt='navImg'
           />
           ALYST
           <br />

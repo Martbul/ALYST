@@ -31,9 +31,11 @@ import { ProfileProvider } from "./contexts/profileContext";
 
 import Services from "./components/seriveces/Services";
 
-import Service2 from "./components/service-2/Service2";
-import Service3 from "./components/service-3/Service3";
+
 import WebsiteDevelopment from "./components/website-development/WebsiteDevelopment";
+
+import GptDevelopment from "./components/GPT-development/GptDevelopmet";
+import AppDevelopment from "./components/app-development/appDevelopment";
 function App() {
   return (
     <ErrorBoundary>
@@ -59,8 +61,8 @@ function App() {
               path={Path.WebsiteDevelopment}
               element={<WebsiteDevelopment />}
             />
-            <Route path={Path.Service2} element={<Service2 />} />
-            <Route path={Path.Service3} element={<Service3 />} />
+            <Route path={Path.appDevelopment} element={<AppDevelopment />} />
+            <Route path={Path.GptDevelopment} element={<GptDevelopment />} />
 
             <Route path={Path.WildCard} element={<NotFound />} />
           </Routes>

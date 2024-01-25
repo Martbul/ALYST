@@ -1,4 +1,8 @@
 import { Link } from "react-router-dom";
+import BlogPosts from "./../blog-posts/BlogPosts";
+import ContactForm from './../contact-form/ContactForm';
+import OurServices from "./../our-services/OurServices";
+import Testemonials from "./../testemonials/Testemonials";
 
 export default function About() {
    return (
@@ -18,11 +22,12 @@ export default function About() {
                />
              </div>
              <div className="col-lg-6 download-right">
-               <h1>
-                 We are 
-                 ALYST!
-               </h1>
-               <p className="subs"> Our goal is to help business manage empoyees, operate and create custop AI models.</p>
+               <h1>We are ALYST!</h1>
+               <p className="subs">
+                 {" "}
+                 Our goal is to help business manage empoyees, operate and
+                 create custop AI models.
+               </p>
                <div className="d-flex flex-row">
                  <div className="buttons">
                    <i className="fa fa-apple" aria-hidden="true" />
@@ -51,28 +56,8 @@ export default function About() {
            </div>
          </div>
        </section>{" "}
-       {/* end team section
-       <section className="hero">
-         <div className="container">
-           <div className="hero-inner">
-             <div className="hero-copy">
-               <h1 className="hero-title mt-0">We are bind</h1>
-               <p className="hero-paragraph">
-                 Brinding Distances with Speed and Care
-               </p>
-               <div className="hero-cta"></div>
-             </div>
-             <div className="hero-figure anime-element">
-               <div className="hero-header-image">
-                 <img src="./src/public/images/i11.jpg" alt="#" />
-               </div>
-             </div>
-           </div>
-         </div>
-       </section>
-
-       {/* End Services Area */}
-       {/* Start Counter Section*/}
+    
+       
        <section
          className="product-counter-section"
          style={{ background: "#3a86ff" }}
@@ -112,98 +97,11 @@ export default function About() {
          </div>
        </section>
        {/* /End Counter Section*/}
-       {/*Frequently asked questions start*/}
-       {/*Frequently asked questions end*/}
-       {/* Start Blog Area */}
-       {/* End Blog Area */}
-       {/* team section */}
-       <section id="service" className="service">
-         <div className="container">
-           <div
-             className="heading_container heading_center"
-             style={{ paddingBottom: "4%" }}
-           >
-             <h2>Our services </h2>
-           </div>
-           <div className="service-content">
-             <div className="row">
-               <div className="col-md-4 col-sm-6">
-                 <div
-                   className="single-service-item"
-                   style={{
-                     backgroundColor: "#E7ECEF",
-                     boxShadow: "0 0 15px 0",
-                   }}
-                 >
-                   <div className="single-service-icon">
-                     <img
-                       //  style={{ height: "129px" }}
-                       className="flaticon-car"
-                       src="/src/public/images/text-message-4642 (1).png"
-                       alt=""
-                     />
-                   </div>
-                   <h2>
-                     <a href="#">Customer helper</a>
-                   </h2>
-                   <p>
-                     Answer qustomers question without need for a Qustomer
-                     Support team.
-                   </p>
-                 </div>
-               </div>
-               <div className="col-md-4 col-sm-6">
-                 <div
-                   className="single-service-item"
-                   style={{
-                     backgroundColor: "#E7ECEF",
-                     boxShadow: "0 0 15px 0",
-                   }}
-                 >
-                   <div className="single-service-icon">
-                     <img
-                       //  style={{ height: "129px" }}
-                       className="flaticon-car"
-                       src="/src/public/images/list-6241.png"
-                       alt=""
-                     />
-                   </div>
-                   <h2>
-                     <a href="#">Employee Task Tracker</a>
-                   </h2>
-                   <p>Your empoyees progress and thay can search their tasks</p>
-                 </div>
-               </div>
-               <div className="col-md-4 col-sm-6">
-                 <div
-                   className="single-service-item"
-                   style={{
-                     backgroundColor: "#E7ECEF",
-                     boxShadow: "0 0 15px 0",
-                   }}
-                 >
-                   <div className="single-service-icon">
-                     <img
-                       //  style={{ height: "129px" }}
-                       className="flaticon-car"
-                       src="/src/public/images/filter-6551.png"
-                       alt=""
-                     />
-                   </div>
-                   <h2>
-                     <a href="#">Get custom AI</a>
-                   </h2>
-                   <p>
-                     Tell us your sepcific business problem and we will find AI
-                     solution
-                   </p>
-                 </div>
-               </div>
-             </div>
-           </div>
-         </div>
-         {/*/.container*/}
-       </section>
+
+       
+       < OurServices />
+       
+
        <section
          style={{ marginTop: "8%", marginBottom: "8%" }}
          id="faq"
@@ -310,130 +208,264 @@ export default function About() {
            </div>
          </div>
        </section>
-       <section
-         style={{ marginTop: "6%", marginBottom: "5%" }}
-         className="blog section"
-         id="blog"
-       >
+
+
+       <Testemonials />
+       
+       
+       <div className="untree_co-section" id="testimonials-section">
          <div className="container">
-           <div className="row">
-             <div className="col-12">
-               <div className="section-title">
-                 <h2>Read Our Blog</h2>
-               </div>
-             </div>
-           </div>
-           <div className="row">
-             <div className="col-lg-4 col-md-6 col-12">
-               {/* Single Blog */}
-               <div className="single-news">
-                 <div className="news-body">
-                   <div className="news-content">
-                     <div className="date">22 Aug, 2023</div>
-                     <h2>
-                       <a href="blog-single-sidebar.html">
-                         NEW CEO ANNOUNCEMENT
-                       </a>
-                     </h2>
-                     <p className="text">
-                       We are proud to announce that Martin Kovachki is the new
-                       ceo of the company
-                     </p>
-                   </div>
-                 </div>
-               </div>
-               {/* End Single Blog */}
-             </div>
-             <div className="col-lg-4 col-md-6 col-12">
-               {/* Single Blog */}
-               <div className="single-news">
-                 <div className="news-body">
-                   <div className="news-content">
-                     <div className="date">15 Jul, 2022</div>
-                     <h2>
-                       <a href="blog-single-sidebar.html">
-                         YOU CAN NOW JOIN US, DELIVER WITH US AND MAKE PROGRESS
-                       </a>
-                     </h2>
-                     <p className="text">
-                       If you have a free days now you can fill them with
-                       delivering and make money
-                     </p>
-                   </div>
-                 </div>
-               </div>
-               {/* End Single Blog */}
-             </div>
-             <div className="col-lg-4 col-md-6 col-12">
-               {/* Single Blog */}
-               <div className="single-news">
-                 <div className="news-body">
-                   <div className="news-content">
-                     <div className="date">05 Jan, 2021</div>
-                     <h2>
-                       <a href="blog-single-sidebar.html">
-                         THE START OF THE JOURNEY
-                       </a>
-                     </h2>
-                     <p className="text">
-                       Our Goal Is To Make Life More Simple For Ones And Better
-                       Of Others
-                     </p>
-                   </div>
-                 </div>
-               </div>
-               {/* End Single Blog */}
-             </div>
-           </div>
-         </div>
-       </section>
-       <section
-         style={{ backgroundColor: "#e7ecef" }}
-         className="contact_section layout_padding"
-       >
-         <div className="contact_bg_box">
-           <div className="img-box">
-             <img src="images/contact-bg.jpg" alt="" />
-           </div>
-         </div>
-         <div className="container">
-           <div className="heading_container heading_center">
-             <h2>Have a questions?</h2>
-           </div>
-           <div className="">
-             <div className="row">
-               <div className="col-md-7 mx-auto">
-                 <form action="#">
-                   <div className="contact_form-container">
-                     <div>
-                       <div>
-                         <input type="text" placeholder="Full Name" />
-                       </div>
-                       <div>
-                         <input type="email" placeholder="Email " />
-                       </div>
-                       <div>
-                         <input type="text" placeholder="Phone Number" />
-                       </div>
-                       <div className="">
-                         <input
-                           type="text"
-                           placeholder="Message"
-                           className="message_input"
-                         />
-                       </div>
-                       <div className="btn-box ">
-                         <button type="submit">Send</button>
+           <div className="row justify-content-center">
+             <div className="col-lg-12" data-aos="fade" data-aos-delay={200}>
+               <div className="owl-2-slider owl-carousel">
+                 <div className="item">
+                   <div className="untree_co-testimonial d-flex">
+                     <div className="text">
+                       <blockquote>
+                         “Separated they{" "}
+                         <span className="highlight">
+                           live in Bookmarksgrove right at the coast of the
+                           Semantics
+                         </span>
+                         , a large language ocean. A small river named Duden
+                         flows by their place and supplies it with the necessary
+                         regelialia. ”
+                       </blockquote>
+                       <div className="author d-flex">
+                         <div className="pic mr-3">
+                           <img
+                             src="images/person_1.jpg"
+                             alt="Image"
+                             className="img-fluid"
+                           />
+                         </div>
+                         <div>
+                           <strong className="d-block">Cameron Fisher</strong>
+                           <span className="d-block">
+                             Facebook, Product Lead
+                           </span>
+                         </div>
                        </div>
                      </div>
-                   </div>
-                 </form>
+                   </div>{" "}
+                   {/* /.untree_co-testimonial */}
+                 </div>
+                 <div className="item">
+                   <div className="untree_co-testimonial d-flex">
+                     <div className="text">
+                       <blockquote>
+                         “Separated they{" "}
+                         <span className="highlight">
+                           live in Bookmarksgrove right at the coast of the
+                           Semantics
+                         </span>
+                         , a large language ocean. A small river named Duden
+                         flows by their place and supplies it with the necessary
+                         regelialia. ”
+                       </blockquote>
+                       <div className="author d-flex">
+                         <div className="pic mr-3">
+                           <img
+                             src="images/person_2.jpg"
+                             alt="Image"
+                             className="img-fluid"
+                           />
+                         </div>
+                         <div>
+                           <strong className="d-block">Jenny Wilson</strong>
+                           <span className="d-block">
+                             Facebook, Product Lead
+                           </span>
+                         </div>
+                       </div>
+                     </div>
+                   </div>{" "}
+                   {/* /.untree_co-testimonial */}
+                 </div>
+                 <div className="item">
+                   <div className="untree_co-testimonial d-flex">
+                     <div className="text">
+                       <blockquote>
+                         “Separated they{" "}
+                         <span className="highlight">
+                           live in Bookmarksgrove right at the coast of the
+                           Semantics
+                         </span>
+                         , a large language ocean. A small river named Duden
+                         flows by their place and supplies it with the necessary
+                         regelialia. ”
+                       </blockquote>
+                       <div className="author d-flex">
+                         <div className="pic mr-3">
+                           <img
+                             src="images/person_3.jpg"
+                             alt="Image"
+                             className="img-fluid"
+                           />
+                         </div>
+                         <div>
+                           <strong className="d-block">James Anderson</strong>
+                           <span className="d-block">
+                             Facebook, Product Lead
+                           </span>
+                         </div>
+                       </div>
+                     </div>
+                   </div>{" "}
+                   {/* /.untree_co-testimonial */}
+                 </div>
                </div>
              </div>
+           </div>{" "}
+           {/* /.row */}
+         </div>{" "}
+         {/* /.container */}
+       </div>{" "}
+       {/* /.untree_co-section */}
+       <div className="untree_co-section" id="about-section">
+         <div className="container">
+           <div className="row justify-content-between mb-5">
+             <div
+               className="col-lg-8 mb-4 mb-lg-0"
+               data-aos="fade-up"
+               data-aos-delay={100}
+             >
+               <img
+                 src="images/undraw_getting_coffee_re_f2do.svg"
+                 alt="Image"
+                 className="img-fluid"
+               />
+             </div>{" "}
+             {/* /.col-lg-6 */}
+             <div className="col-lg-4">
+               <div className="mb-4" data-aos="fade-up" data-aos-delay={0}>
+                 <span className="caption">About</span>
+                 <h2 className="heading">The Company</h2>
+               </div>
+               <div className="mb-4" data-aos="fade-up" data-aos-delay={100}>
+                 <p>
+                   Far far away, behind the word mountains, far from the
+                   countries Vokalia and Consonantia, there live the blind
+                   texts. Separated they live in Bookmarksgrove right at the
+                   coast
+                 </p>
+                 <p>
+                   Separated they{" "}
+                   <span className="highlight">
+                     live in Bookmarksgrove right at the coast of the Semantics
+                   </span>
+                   , a large language ocean. A small river named Duden flows by
+                   their place and supplies it with the necessary regelialia.
+                 </p>
+               </div>
+               <ul
+                 className="list-unstyled ul-check primary mb-4"
+                 data-aos="fade-up"
+                 data-aos-delay={200}
+               >
+                 <li>There live the blind texts</li>
+                 <li>Far far away behind the word</li>
+                 <li>Their place and supplies</li>
+               </ul>
+               <div className="row count-numbers">
+                 <div
+                   className="col-6 col-lg-6"
+                   data-aos="fade-up"
+                   data-aos-delay={0}
+                 >
+                   <span className="counter d-block">
+                     <span data-number={24}>0</span>
+                     <span>M</span>
+                   </span>
+                   <span className="caption-2">Members</span>
+                 </div>
+                 <div
+                   className="col-6 col-lg-6"
+                   data-aos="fade-up"
+                   data-aos-delay={100}
+                 >
+                   <span className="counter d-block">
+                     <span data-number={121}>0</span>
+                     <span />
+                   </span>
+                   <span className="caption-2">Team</span>
+                 </div>
+               </div>
+             </div>{" "}
+             {/* /.col-lg-6 */}
+           </div>{" "}
+           {/* /.row */}
+           <div className="row pt-5">
+             <div className="col-12 mb-5" data-aos="fade-up">
+               <span className="caption">Team</span>
+               <h2 className="heading">The Team</h2>
+             </div>
+             <div
+               className="col-6 col-lg-4"
+               data-aos="fade-up"
+               data-aos-delayt={100}
+             >
+               <img
+                 src="images/person_1.jpg"
+                 alt="Image"
+                 className="img-fluid mb-3 w-50 rounded-circle"
+               />
+               <h3 className="h5 font-weight-bold">Job Smith</h3>
+               <p>
+                 Separated they{" "}
+                 <span className="highlight">
+                   live in Bookmarksgrove right at the coast of the Semantics
+                 </span>
+                 , a large language ocean. A small river named Duden flows by
+                 their place and supplies it with the necessary regelialia.
+               </p>
+             </div>
+             <div
+               className="col-6 col-lg-4"
+               data-aos="fade-up"
+               data-aos-delayt={200}
+             >
+               <img
+                 src="images/person_2.jpg"
+                 alt="Image"
+                 className="img-fluid mb-3 w-50 rounded-circle"
+               />
+               <h3 className="h5 font-weight-bold">Jenny Wilson</h3>
+               <p>
+                 Separated they{" "}
+                 <span className="highlight">
+                   live in Bookmarksgrove right at the coast of the Semantics
+                 </span>
+                 , a large language ocean. A small river named Duden flows by
+                 their place and supplies it with the necessary regelialia.
+               </p>
+             </div>
+             <div
+               className="col-6 col-lg-4"
+               data-aos="fade-up"
+               data-aos-delayt={300}
+             >
+               <img
+                 src="images/person_3.jpg"
+                 alt="Image"
+                 className="img-fluid mb-3 w-50 rounded-circle"
+               />
+               <h3 className="h5 font-weight-bold">Richard Cruise</h3>
+               <p>
+                 Separated they{" "}
+                 <span className="highlight">
+                   live in Bookmarksgrove right at the coast of the Semantics
+                 </span>
+                 , a large language ocean. A small river named Duden flows by
+                 their place and supplies it with the necessary regelialia.
+               </p>
+             </div>
            </div>
-         </div>
-       </section>
-
+         </div>{" "}
+         {/* /.container */}
+       </div>{" "}
+       <BlogPosts />
+       <ContactForm />
      </>
    );
 }
