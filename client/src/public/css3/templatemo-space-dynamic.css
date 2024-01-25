@@ -835,7 +835,7 @@ Banner Style
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  padding: 100px 0px 120px 0px;
+  height: 100vh;
   position: relative;
   overflow: hidden;
 }

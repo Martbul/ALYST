@@ -1,4 +1,4 @@
-export default function Service1() {
+export default function WebsiteDevelopment() {
   return (
     <>
       <div
@@ -18,10 +18,10 @@ export default function Service1() {
                     data-wow-duration="1s"
                     data-wow-delay="1s"
                   >
-                    <h6>Customer helper</h6>
+                    <h6>Website Development</h6>
                     <h2>
-                      Improve your <em>Customer Support</em> with{" "}
-                      <span>AI</span>{" "}
+                      Put your business online and Improve your{" "}
+                      <em>Customer Experience</em>
                     </h2>
                     <p>
                       All qestion your customers have will be answerd with ease
@@ -391,18 +391,18 @@ export default function Service1() {
                   data-aos-delay={100}
                 >
                   <div className="pricing">
-                    <div className="body">
+                    <div className="body gold">
                       <div className="price">
                         <span className="price">
-                          <sup>$</sup>
-                          <span>0</span>
+                          <sup>lv</sup>
+                          <span>100/m</span>
                         </span>
-                        <span className="d-block plan mb-4">Free</span>
+                        <span className="d-block plan mb-4">Gold</span>
                       </div>
                       <ul className="list-unstyled ul-check primary mb-5">
-                        <li>There live the blind texts</li>
-                        <li>Far far away behind the word</li>
-                        <li>Far from the countries Vokalia and Consonantia</li>
+                        <li>Semi customizable features</li>
+                        <li>Custom domain</li>
+                        <li>Top hosting</li>
                       </ul>
                       <p className="text-center mb-0">
                         <a href="#" className="btn btn-outline-primary">
@@ -420,18 +420,48 @@ export default function Service1() {
                   data-aos-delay={200}
                 >
                   <div className="pricing active">
-                    <div className="body">
-                      <div className="price">
+                    <div className="body diamond">
+                      <div className="price ">
                         <span className="price">
-                          <sup>$</sup>
-                          <span>0</span>
+                          <sup>lv</sup>
+                          <span>500/m</span>
                         </span>
-                        <span className="d-block plan mb-4">Standard</span>
+                        <span className="d-block plan mb-4">Diamond</span>
                       </div>
                       <ul className="list-unstyled ul-check primary mb-5">
-                        <li>There live the blind texts</li>
-                        <li>Far far away behind the word</li>
-                        <li>Far from the countries Vokalia and Consonantia</li>
+                        <li>Fully customizable features</li>
+                        <li>Custom domain</li>
+                        <li>SEO optimization</li>
+                        <li>Admin page</li>
+                        <li>Top hosting</li>
+                      </ul>
+                      <p className="text-center mb-0">
+                        <a href="#" className="btn btn-primary">
+                          Get Started
+                        </a>
+                      </p>
+                    </div>
+                  </div>{" "}
+                  {/* /.pricing */}
+                </div>{" "}
+                <div
+                  className="col-lg-4"
+                  data-aos="fade-up"
+                  data-aos-delay={200}
+                >
+                  <div className="pricing active">
+                    <div className="body bronze">
+                      <div className="price">
+                        <span className="price">
+                          <sup>lv</sup>
+                          <span>20/m</span>
+                        </span>
+                        <span className="d-block plan mb-4">Bronze</span>
+                      </div>
+                      <ul className="list-unstyled ul-check primary mb-5">
+                        <li>Simple e-commerce template site</li>
+                        <li>3 template choice</li>
+                        <li>Free subdomain</li>
                       </ul>
                       <p className="text-center mb-0">
                         <a href="#" className="btn btn-primary">

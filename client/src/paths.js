@@ -2,7 +2,7 @@ const Path = {
   Home: "/",
   LearnMore: "/learnMore",
   Services: "/services",
-  Service1: "/service1",
+  WebsiteDevelopment: "/Websitedevelopment",
   Service2: "/service2",
   Service3: "/service3",
   About: "/about",

@@ -21,31 +21,14 @@ export default function Home() {
                    >
                      <h6>Welcome to ALYST</h6>
                      <h2>
-                       We Improve your <em>Company</em> with <span>AI</span>{" "}
-                       Products
+                       Put your <em>Business</em> Online and Improve it with
+                       <span>AI</span> Products
                      </h2>
                      <p>
                        ALYST is a professional company working for better
                        future. We want to optimize the works in each company
                        trought utilizing AI work
                      </p>
-                     {/* <form id="search" action="#" method="GET">
-                <fieldset>
-                  <input
-                    type="address"
-                    name="address"
-                    className="email"
-                    placeholder="Your website URL..."
-                    autoComplete="on"
-                    required=""
-                  />
-                </fieldset>
-                <fieldset>
-                  <button type="submit" className="main-button">
-                    Analyze Site
-                  </button>
-                </fieldset>
-              </form> */}
                    </div>
                  </div>
                  <div className="col-lg-6">
@@ -116,8 +99,6 @@ export default function Home() {
                      boxShadow: "0 0 15px 0",
                    }}
                  >
-                
-
                    <div className="single-service-icon">
                      <img
                        //  style={{ height: "129px" }}
@@ -127,11 +108,11 @@ export default function Home() {
                      />
                    </div>
                    <h2>
-                     <Link to="/service1">Customer helper</Link>
+                     <Link to="/Websitedevelopment">Website Development</Link>
                    </h2>
                    <p>
-                     Answer qustomers question without need for a Qustomer
-                     Support team.
+                     Grow your business online and improve your customer
+                     experience
                    </p>
                  </div>
                </div>
@@ -152,9 +133,9 @@ export default function Home() {
                      />
                    </div>
                    <h2>
-                     <Link to="/service2">Employee Task Tracker</Link>
+                     <Link to="/service2">App Development</Link>
                    </h2>
-                   <p>Your empoyees progress and thay can search their tasks</p>
+                   <p>Make the life of your customers with mobile experience</p>
                  </div>
                </div>
                <div className="col-md-4 col-sm-6">
@@ -174,12 +155,9 @@ export default function Home() {
                      />
                    </div>
                    <h2>
-                     <Link to="/service3">Get custom AI</Link>
+                     <Link to="/service3">Cutom GPT</Link>
                    </h2>
-                   <p>
-                     Tell us your sepcific business problem and we will find AI
-                     solution
-                   </p>
+                   <p>Customize GPT for your company needs</p>
                  </div>
                </div>
              </div>
@@ -220,12 +198,12 @@ export default function Home() {
                      <div className="skills">
                        <div className="skill-slide marketing">
                          <div className="fill" />
-                         <h6>Informed Clients</h6>
+                         <h6>Web Industry</h6>
                          <span>90%</span>
                        </div>
                        <div className="skill-slide digital">
                          <div className="fill" />
-                         <h6>Task Management</h6>
+                         <h6>Customer Experience</h6>
                          <span>80%</span>
                        </div>
                        <div className="skill-slide media">
@@ -235,8 +213,7 @@ export default function Home() {
                        </div>
                      </div>
                      <p className="more-info">
-                       With our help you can develop and increse your business
-                       productivity
+                       Scale and Grow your business with us!
                      </p>
                    </div>
                  </div>

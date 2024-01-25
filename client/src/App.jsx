@@ -30,9 +30,10 @@ import { ProfileProvider } from "./contexts/profileContext";
 
 
 import Services from "./components/seriveces/Services";
-import Service1 from "./components/service-1/Service1";
+
 import Service2 from "./components/service-2/Service2";
 import Service3 from "./components/service-3/Service3";
+import WebsiteDevelopment from "./components/website-development/WebsiteDevelopment";
 function App() {
   return (
     <ErrorBoundary>
@@ -54,7 +55,10 @@ function App() {
 
             <Route path={Path.SingUp} element={<SingUp />} />
             <Route path={Path.LogIn} element={<Login />} />
-            <Route path={Path.Service1} element={<Service1 />} />
+            <Route
+              path={Path.WebsiteDevelopment}
+              element={<WebsiteDevelopment />}
+            />
             <Route path={Path.Service2} element={<Service2 />} />
             <Route path={Path.Service3} element={<Service3 />} />
 

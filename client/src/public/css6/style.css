@@ -820,7 +820,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .pricing .body {
   position: relative;
   z-index: 1;
-  background: #ffffff;
+
   border-radius: 40px;
   padding: 50px; }
   @media (max-width: 1199.98px) {
@@ -1431,3 +1431,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
       .site-footer .social li a:hover {
         background: #0d62b9;
         color: #ffffff; }
+
+
+.diamond{
+  background: #b9f2ff ;
+}
+
+.gold{
+background: #FFD700 ;
+}
+
+.bronze{
+   background: #EB9949 ;
+}
