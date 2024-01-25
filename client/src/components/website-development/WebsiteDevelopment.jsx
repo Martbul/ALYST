@@ -378,7 +378,8 @@ export default function WebsiteDevelopment() {
             >
               <span className="caption">Plans</span>
               <h2 className="heading">Pricing</h2>
-              <p>Pricing for everyone. Choose your plan now!</p>
+              {/* <p>Pricing for everyone. Choose your plan now!</p> */}
+              <p>NOTE: the prices are not finall, they can be changed before starting to work, depending on features and other components on the website!</p>
             </div>
           </div>{" "}
           {/* /.row */}

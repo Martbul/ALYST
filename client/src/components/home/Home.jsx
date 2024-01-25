@@ -69,8 +69,8 @@ export default function Home() {
                    <h2>Who Are We?</h2>
                  </div>
                  <p>
-                   Our goal is to help companies with Artoficial Inteligence. To
-                   make the work and logistics simler and generate more income.
+                   We are an experienced company in the software development fiel and our goal is to
+                   improveand grow businesses
                  </p>
                  <div className="btn-box">
                    <a href="">Read More</a>
@@ -80,7 +80,8 @@ export default function Home() {
            </div>
          </div>
        </section>
-       {/* end about section */}\{/* service section */}
+       {/* end about section */}
+       {/* service section */}
        <section id="service" className="service">
          <div className="container">
            <div
