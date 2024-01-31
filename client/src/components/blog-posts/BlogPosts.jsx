@@ -23,11 +23,7 @@ export default function BlogPosts() {
              <div className="news-item">
                <div className="vcard d-flex align-items-center mb-4">
                  <div className="img-wrap">
-                   <img
-                     src="images/person_1.jpg"
-                     alt="Image"
-                     className="img-fluid"
-                   />
+                 <i class="fa-regular fa-circle-user"></i>
                  </div>
                  <div className="post-meta">
                    <strong>Posted by Job</strong>
@@ -80,11 +76,7 @@ export default function BlogPosts() {
              <div className="news-item">
                <div className="vcard d-flex align-items-center mb-4">
                  <div className="img-wrap">
-                   <img
-                     src="images/person_2.jpg"
-                     alt="Image"
-                     className="img-fluid"
-                   />
+                 <i class="fa-regular fa-circle-user"></i>
                  </div>
                  <div className="post-meta">
                    <strong>Posted by Jenny</strong>
@@ -137,11 +129,7 @@ export default function BlogPosts() {
              <div className="news-item">
                <div className="vcard d-flex align-items-center mb-4">
                  <div className="img-wrap">
-                   <img
-                     src="images/person_3.jpg"
-                     alt="Image"
-                     className="img-fluid"
-                   />
+                 <i class="fa-regular fa-circle-user"></i>
                  </div>
                  <div className="post-meta">
                    <strong>Posted by Matt</strong>

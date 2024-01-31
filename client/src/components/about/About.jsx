@@ -4,6 +4,7 @@ import ContactForm from './../contact-form/ContactForm';
 import OurServices from "./../our-services/OurServices";
 import Testemonials from "./../testemonials/Testemonials";
 
+
 export default function About() {
    return (
      <>
@@ -331,7 +332,7 @@ export default function About() {
                data-aos-delay={100}
              >
                <img
-                 src="images/undraw_getting_coffee_re_f2do.svg"
+                 src="https://images.unsplash.com/photo-1556761175-4b46a572b786?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                  alt="Image"
                  className="img-fluid"
                />
@@ -395,6 +396,7 @@ export default function About() {
              {/* /.col-lg-6 */}
            </div>{" "}
            {/* /.row */}
+           
            <div className="row pt-5">
              <div className="col-12 mb-5" data-aos="fade-up">
                <span className="caption">Team</span>
@@ -405,11 +407,7 @@ export default function About() {
                data-aos="fade-up"
                data-aos-delayt={100}
              >
-               <img
-                 src="images/person_1.jpg"
-                 alt="Image"
-                 className="img-fluid mb-3 w-50 rounded-circle"
-               />
+              <i class="fa-solid fa-user"></i>
                <h3 className="h5 font-weight-bold">Job Smith</h3>
                <p>
                  Separated they{" "}
@@ -425,11 +423,7 @@ export default function About() {
                data-aos="fade-up"
                data-aos-delayt={200}
              >
-               <img
-                 src="images/person_2.jpg"
-                 alt="Image"
-                 className="img-fluid mb-3 w-50 rounded-circle"
-               />
+              <i class="fa-solid fa-user"></i>
                <h3 className="h5 font-weight-bold">Jenny Wilson</h3>
                <p>
                  Separated they{" "}
@@ -445,11 +439,7 @@ export default function About() {
                data-aos="fade-up"
                data-aos-delayt={300}
              >
-               <img
-                 src="images/person_3.jpg"
-                 alt="Image"
-                 className="img-fluid mb-3 w-50 rounded-circle"
-               />
+               <i class="fa-solid fa-user"></i>
                <h3 className="h5 font-weight-bold">Richard Cruise</h3>
                <p>
                  Separated they{" "}

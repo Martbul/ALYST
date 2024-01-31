@@ -22,12 +22,7 @@ export default function OurServices() {
                   }}
                 >
                   <div className="single-service-icon">
-                    <img
-                      //  style={{ height: "129px" }}
-                      className="flaticon-car"
-                      src="/src/public/images/text-message-4642 (1).png"
-                      alt=""
-                    />
+                  <i class="fa-solid fa-code servicesIcon"></i>
                   </div>
                   <h2>
                     <Link to="/Websitedevelopment">Website Development</Link>
@@ -47,12 +42,7 @@ export default function OurServices() {
                   }}
                 >
                   <div className="single-service-icon">
-                    <img
-                      //  style={{ height: "129px" }}
-                      className="flaticon-car"
-                      src="/src/public/images/list-6241.png"
-                      alt=""
-                    />
+                  <i class="fa-solid fa-mobile servicesIcon"></i>
                   </div>
                   <h2>
                     <Link to="/appDevelopment">App Development</Link>
@@ -69,12 +59,7 @@ export default function OurServices() {
                   }}
                 >
                   <div className="single-service-icon">
-                    <img
-                      //  style={{ height: "129px" }}
-                      className="flaticon-car"
-                      src="/src/public/images/filter-6551.png"
-                      alt=""
-                    />
+                  <i class="fa-solid fa-sliders servicesIcon"></i>
                   </div>
                   <h2>
                     <Link to="/gptDevelopment">Cutom GPT</Link>
